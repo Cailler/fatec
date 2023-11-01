@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <p lang="pt-br"></p>
+        <title>Cadastro</title>
+        <style>
+            .head{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 16px;
+                color:blueviolet
+            }
+
+            .answer{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                color:blue
+            }
+
+            .other{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 16px;
+                color:brown
+            }
+        </style>
+        </head>
+        <body>
+<h1 class="head"> Cadastro para o open beta de algum jogo aleatório</h1>
+
+<p class="head"><label>Usuário:</label></p>
+<p class="answer"><input type="text" name="Usuário"><br></p>
+<br>
+
+<p class="head"><label>Senha:</label></p>
+<p class="answer"><input type="password" name="Senha"><br></p>
+<br>
+
+<p class="head"><label>E-mail:</label></p>
+<p class="answer"><input type="email"><br></p>
+<br>
+
+<p class="head"><label>Data de nascimento:</label></p>
+<p class="answer"><input type="date" name="Data de nascimento"><br></p>
+<br>
+
+<p class="head"><la''''''''''''''bel>Servidor:</label></p>
+<p class="answer"><select name="servidor" required>
+    <option value="northamerica">América do Norte</option>
+    <option value="centralamerica">América Central</option>
+    <option value="southamerica">América do Sul</option>
+    <option value="asia">Ásia</option>
+    <option value="europe">Europa</option>
+</select><br></p>
+<br>
+
+<p class="head"><label>Deseja receber notícias e atualizações em seu e-mail?<br></label></p>
+<p class="answer"><label>Sim</label><input type="radio" name="opcao"><br>
+<label>Não</label><input type="radio" name="opcao"><br>
+<br></p>
+
+<p class="head"><label>Quanto tempo por dia você está disposto a jogar por dia durante os testes?</label><br></p>
+<p class="answer"><label>1 hora/dia</label><input type="range"><label>24 horas/dia</label><br>
+<br></p>
+
+<p class="head"><label>Faça o upload da sua imagem de perfil ingame:</label><br></p>
+<p class="answer"><input type="file"><br>
+<br></p>
+
+<p class="head"><label>Quais destes jogos você tem jogado ultimamente?</label><br></p>
+<p class="answer"><input type="checkbox"><label>Jogo 1</label><br>
+<input type="checkbox"><label>Jogo 2</label><br>
+<input type="checkbox"><label>Jogo 3</label><br>
+<input type="checkbox"><label>Jogo 4</label><br>
+<br></p>
+
+<p class="other"><label>Teste</label></p>
+
+<input type="reset" value="Apagar"><input type="submit" value="Enviar">
+        </body>
+</html>
